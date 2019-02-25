@@ -1,0 +1,171 @@
+body{
+  margin: 0;
+  font-family: helvetica;
+}
+.mainContent ul{
+  margin: 0;
+  display: block;
+}
+.mainContent ul li {
+  display: inline-block;
+}
+.mainContent ul li a{
+  text-decoration: none;
+  color:#595959;
+}
+.mainContent ul li input{
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #E5E5E5;
+  border:none;
+  border-radius: 3px;
+  width: 140px;
+}
+.mainContent button{
+  padding: 10px 15px 10px 15px;
+  border-radius: 3px;
+
+}
+#loginBtn{
+  background-color: #d43f3a;
+  border: none;
+  color:#fff
+}
+#register{
+  background-color: #332f2e;
+  border: none;
+  color:#fff
+}
+.loginBox form{
+  margin-left: 76px;
+}
+header{
+margin-top: 20px;
+}
+.mainContent{
+
+  width: 1024px;
+  position: relative;
+  margin: 0 auto;
+}
+
+label{
+  padding: 20px 5px 5px 0px;
+  display: block;
+  color:#595959;
+}
+.logo{
+  position: absolute;
+  width: 600px;
+
+  display: inline-block;
+}
+.loginBox{
+display: inline-block;
+width:550px;
+float: right;
+
+
+}
+
+#Menu{
+margin-top: 20px;
+  clear: both;
+  background-color:#332F2E;
+  width: 100%;
+}
+#Menu ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 1024px;
+
+}
+#Menu ul li{
+  display: inline-block;
+}
+#Menu ul li a{
+  text-align: center;
+  display: block;
+  padding: 20px 25px 20px 25px;
+  color:#fff;
+  font-size:15px;
+}
+#Menu ul li a:hover{
+  background-color:#d43f3a;
+  color:#fff;
+}
+#bigImages{
+  margin-top: 20px;
+}
+
+#donorSearch{
+  width: 100%;
+  background-color: #D6351E;
+}
+.primaryFont {
+padding: 15px;
+padding-left: 0;
+margin: 0;
+color:#fff;
+}
+
+.donorSearch_box{
+  width: 600px;
+  padding-bottom: 20px;
+}
+.donorSearch_box ul{
+  margin: 0;
+  padding: 0;
+}
+.donorSearch_box ul label{
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  color:#fff;
+}
+.donorSearch_box  select{
+  padding-right: 150px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border: none;
+  border-radius: 5px;
+
+}
+.donorSearch_box button{
+  border: none;
+  color:#fff;
+  position: relative;
+  top: 2px;
+  background-color: #464140;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.donorSearch_box p{
+  color:#fff;
+}
+ .donorSearch_box .DnrReg{
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #D6351E;
+  margin-left: 10px;
+}
+#blog ul {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#blog ul li{
+  margin-right: 10px;
+}
+footer{
+  background:#DCDCDC;
+  padding: 15px;
+  color:black;
+  text-align: center;
+
+}

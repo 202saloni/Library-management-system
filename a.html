@@ -1,0 +1,338 @@
+<html>
+  
+<head>
+   
+<link rel="stylesheet" href="main.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+-
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+body{
+border:5px solid blue;
+}
+.boxed {
+  border: 2px solid blue ;
+} 
+table {
+border: 2px solid blue ;
+}
+tr,td{
+padding: 3px;
+}
+table {
+    border-spacing: 15px;
+}
+</style>
+</head>
+
+<body>
+<script src="jquery-3.3.1.min.js">
+</script>
+<script>
+$( document ).ready(function()
+{
+
+});
+</script>
+<header id="mainHeader">
+   
+ <div class="mainContent">
+  
+<ul>       
+ 
+<div class="Box">
+ 
+ <div class="logo">
+            
+<img src="images\1111.jpg" height="140" width="200">
+          
+</div>
+                
+<center><h1>LIBRARY MANAGEMENT SYSTEM</h1></center> 
+        
+</div>
+
+</ul>    
+ 
+</header>
+
+  
+<br>
+<br>
+<br>
+<br>
+<nav id="Menu">
+    
+<div class="mainContent">
+
+        
+<ul>
+  
+       
+<li><a href="a.html">HOME</a></li>
+            
+<li><a href="about.html">ABOUT US</a> </li>
+         
+  <li><a href="aboutblood.html">LOGIN</a></li>
+            
+<li><a href="raisereq.html">SEARCH BOOK</a></li>
+           
+ <li><a href="getinvoled.html">ISSUE BOOK</a></li>
+            
+ 
+ <li ><a href="return.html">RETURN BOOK</a></li>
+
+<li ><a href="contacts.html">REGISTER</a></li>
+
+</ul>
+    
+</div>
+  </nav> 
+
+</section>
+
+<br><br>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 6</div>
+  <img src="images\aaaa.jpg" height="500" width="800">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 6</div>
+  <img src="images\bbbb.jpg" height="500" width="800">
+ 
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 6</div>
+  <img src="images\cccc.jpg" height="500" width="800">
+ 
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 / 6</div>
+  <img src="images\dddd.jpg" height="500" width="800">
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">5 / 6</div>
+  <img src="images\eeee.jpg" height="500" width="800">
+  </div>
+<div class="mySlides fade">
+  <div class="numbertext">6 / 6</div>
+  <img src="images\ffff.jpg" height="500" width="800">
+ </div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+<span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000);
+}
+</script>
+</div>
+<h2><center>A library is not a luxury but one of the necessities of life </center></h2>
+<div class="table">
+<center>
+<table>
+<tr><th>   <a href="monk.pdf" >  <img src="images/monk.jpg" class="img1" style="height: 370px "></a></th><th><b> <a href="0to1.pdf" >  <img src="images/zero.jpg" class="img1" style="height: 370px "></a></b></th>
+<th><a href="https://www.google.co.in/search?ei=KMncWtvcJovUvAS98paYBw&q=titanic+sink+book&oq=titanic+sink+book&gs_l=psy-ab.3...115347.139714.0.140647.7.7.0.0.0.0.8048.8048.9-1.1.0....0...1c.1.64.psy-ab..6.1.8048...0j0i10k1.0.S7-0iD37WFA" >  <img src="images/nonfiction.jpg" class="img1" style="height: 370px "></a></th>
+<th><b> <a href="monk.pdf" >  <img src="images/zz.jpg" class="img1" style="height: 370px "></a></b></th></tr>
+
+</table>
+</center>
+<p><i>A library can be considered a store – house of knowledge. In dictionaries the word “library” has been defined as “a building or room containing a collection of books”. A library renders a great service to the society. There are a large number of Public Libraries maintained by the local authorities throughout the island.
+<br><br>
+ A library plays a very important role in promoting the progress of knowledge. There are many people who love reading. But they can’t afford to buy books because the prices of books are very high. So when one becomes a member of a library, he can borrow valuable books. A member can borrow two books at a time and he can keep it with him for two weeks. Libraries are particularly useful for poor children. Even those who are better off can’t afford to buy all the books they require for their studies. For instance, invaluable books like Encyclopedias and large dictionaries cannot be purchased.
+<br><br>
+ A public library is a place that is open to poor and rich alike. There are mainly two sections in a library. They are the lending section and the reference section. Any member can borrow books from the lending section. Nonmembers too can use the reference section. They are allowed to enter the section free of charge. They can takedown notes from the books. In addition to these two sections, there is another section in a library. Here any one can do his or her studies under a calm and quiet environment. This section is called “The study room”. Some students find it very difficult to do their studies at their homes due to various reasons. This section is particularly useful for such students.
+ A library is very useful for rural youths too. If they take to reading they will be able to refrain from evil habits such as loitering and gambling. There are not only books, but also newspapers, magazines, periodicals and government gazette in a library.
+<br><br>
+ In view of the above facts it is apparent that a library is a very important place in the society.<br></i>
+</p>
+
+<section id="donorSearch">
+ 
+ <div class="mainContent">
+    
+
+</div>
+</section>
+<section id="blog">
+  
+<div class="mainContent">
+    
+<ul>
+        
+<li>
+            
+<div class="Box Info">
+               
+ <img src="images\zzzz.jpg" width="250" height="340">
+            
+</div>
+        
+</li>
+       
+ <li>
+            
+<div class="Box Info">
+                
+<img src="images\yyyy.jpg" width="250" height="340">
+            
+</div>
+        
+</li>
+
+        
+<li>
+            
+<div class="Box Info">
+                
+<img src="images\xxxx.jpg" width="250" height="340">
+            
+</div>
+        </li>
+    </ul>
+  </div>
+</section>
+
+<section id="youtube">
+  
+<div class="mainContent">
+       <ul>   <li>
+            
+<iframe width="300" height="170" src="https://www.youtube.com/watch?v=mrl7GdlLQwE" frameborder="1" allowfullscreen></iframe>
+        
+</li>
+        
+<a name="TOP"></a>
+        
+<li style="width:500px; line-height:2; margin-left:20px;">
+          
+<h4 style="color:#d6351e;">10 largest library of world</h4>
+          
+       </li>
+
+    </ul>
+  
+</div>
+
+</section>
+
+
+<footer>
+<b>CONNECT WITH US :</b>
+<br>
+ Saloni Rajput<br>Shbani Devi<br>Aarij Majid<br>
+ph no.:90121*****<br>
+<a target="_blank" title"find us on fb"
+href="http://www..facebook.com"><img alt="follow us on fb" src="images\f.png" border=0 width="30" height="30"></a> 
+<a target="_blank" title"find us on twitter"
+href="http://www..twitter.com"><img alt="follow us on twitter" src="images\t.png" border=0 width="30" height="30"></a> 
+   <a target="_blank" title"find us on linkedin"
+href="http://www..linkedin.com"><img alt="follow us on linkedin" src="images\li.png" border=0 width="30" height="30"></a> 
+ <a target="_blank" title"find us on youtube"
+href="http://www..youtube.com"><img alt="follow us on youtube" src="images\y.png" border=0 width="30" height="30"></a> 
+       
+    
+</footer>
+
+
+
+</body>
+
+</html>
